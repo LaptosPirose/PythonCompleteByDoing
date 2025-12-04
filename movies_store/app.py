@@ -8,7 +8,8 @@ Usage:
     Run the module and follow the prompts to add/list/find movies.
 """
 
-MENU_PROMPT = "\nEnter 'a' to add a movie, 'l' to see your movie, 'f' to find a movie by title, or 'q' to quit: "
+MENU_PROMPT = "\nEnter 'a' to add a movie, 'l' to see your movie, 'f' to \
+    find a movie by title, or 'q' to quit: "
 movies = []
 
 
