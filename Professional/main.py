@@ -42,9 +42,9 @@ def parse_cli_arguments() -> argparse.Namespace:
 def main() -> int:
     """Função main profissional — contém apenas orquestração, não lógica."""
     try:
+        configure_logging()
         args = parse_cli_arguments()
         print(f'Application args are-> {args}!')
-        configure_logging()
         logging.info("Inicializando aplicação...")
         return 0
 
