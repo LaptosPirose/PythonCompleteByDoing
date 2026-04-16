@@ -1,5 +1,5 @@
 """_summary_
-    """
+"""
 import asyncio
 from asyncua import Client  # type: ignore[import]
 
