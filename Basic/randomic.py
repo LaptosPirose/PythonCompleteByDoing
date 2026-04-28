@@ -1,10 +1,13 @@
 import random
 
-# Gera 15 números únicos entre 1 e 25
-# O range(1, 26) inclui o 1 e vai até o 25
-numeros = random.sample(range(1, 26), 15)
+# Gera 15 floats aleatórios entre 1 e 200
+numeros = [random.uniform(1, 200) for _ in range(15)]
 
 # Opcional: ordena os números para facilitar a leitura
 numeros.sort()
 
-print(f"Números gerados: {numeros}")
+print(f"Floats gerados: {numeros}")
+
+# Exemplo de um único float aleatório
+single_float = random.uniform(1, 200)
+print(f"Float único: {single_float}")
